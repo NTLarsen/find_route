@@ -6,3 +6,8 @@ def home(reqest):
     name = 'Bob'
 
     return render(reqest, 'home.html', {'name': name})
+
+def about(reqest):
+    name = 'About us!'
+
+    return render(reqest, 'about.html', {'name': name})
